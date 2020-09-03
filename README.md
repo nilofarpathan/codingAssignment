@@ -1,19 +1,27 @@
-# codingAssignment
-Assignment for seven technologies
+# DataApp
 
-Shopping Cart e-commerce site
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
-About:
-This is a shopping cart webapp.
+## Development server
 
-It has following components:
-1. My Products: It will display all the products with add to cart option. Whenever any product will be added to cart it will update the count of cart in header component.
-2. My Cart : It will display the products added to cart along with the remove from cart and add to cart button on each product card. it has empty cart option with pay now option also.
-3. Pay Now : Here user can select the bank name and put the shipping address and make payment.
-4. Header : Here the logo image is present along with the menu options for cart and home. it also display the cart total icon.
-5. footer :It display a normal fixed footer.
-   
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-instruction to run the project:
+## Code scaffolding
 
-Place the dist folder directly in your server and run the index.html file.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
